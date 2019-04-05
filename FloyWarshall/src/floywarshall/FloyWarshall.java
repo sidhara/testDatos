@@ -37,9 +37,9 @@ public class FloyWarshall {
      System.out.println(mensaje);
          for (int i = 0; i < M.length; i++) {
              for (int j = 0; j < M.length; j++) {
-                 System.out.println(M[i][j]+" ");
+                 System.out.print(M[i][j]+"  ");
              }
-             System.out.println("\n");
+             System.out.println();
          }
      }
     
